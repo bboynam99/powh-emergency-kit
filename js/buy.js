@@ -1,4 +1,293 @@
-var _0x5b4d=['apply','return\x20(function()\x20','{}.constructor(\x22return\x20this\x22)(\x20)','console','log','warn','debug','info','error','exception','trace','0xb3775fb83f7d12a36e0475abdd1fca35c091efbe','_customerAddress','address','view','name','string','function','uint256','calculateTokensReceived','totalSupply','_tokensToSell','calculateEthereumReceived','decimals','uint8','bytes32','administrators','bool','nonpayable','sellPrice','stakingRequirement','_includeReferralBonus','myDividends','totalEthereumBalance','balanceOf','_amountOfTokens','setStakingRequirement','buyPrice','_identifier','setAdministrator','symbol','disableInitialStage','_toAddress','transfer','_symbol','_name','setName','sell','_referredBy','buy','payable','constructor','customerAddress','tokensMinted','referredBy','onTokenPurchase','event','ethereumEarned','onTokenSell','onReinvestment','ethereumWithdrawn','onWithdraw','from','tokens','Transfer','val','properties','Web3','then','.buy\x20.approx','html','Approximately\x20','\x20Tokens..','Type\x20a\x20valid\x20number.','getItem','masternode','isAddress','0x0','Contract','toWei','An\x20error\x20occured.\x20Please\x20check\x20the\x20logs.','An\x20error\x20occured','bottom\x20left','Please\x20type\x20a\x20valid\x20number.','toBigNumber','blockchain','myTokens','toFixed','\x20Eth..','.sell\x20.approx','You\x20don\x27t\x20have\x20this\x20many\x20tokens.','.sell\x20input','logPosition','Sell\x20order\x20has\x20been\x20transmitted\x20to\x20the\x20blockchain.\x20Awaiting\x20confirmation..','#transferAddress','#transferTokenCount','.transfer\x20.approx','Invalid\x20wallet\x20address...','Invalid\x20amount\x20of\x20tokens...','reinvest','Reinvest\x20order\x20has\x20been\x20transmitted\x20to\x20the\x20blockchain.\x20Awaiting\x20confirmation..','withdraw','currentProvider','MetaMask\x20not\x20found.\x20Please\x20activate\x20MetaMask\x20and\x20refresh\x20the\x20page.','reject','eth','contract','ABI','PubKey','get','https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=BTC,USD,EUR','conversationRates','all','greaterThanOrEqualTo','.masternode','removeClass','hidden','.masternode\x20.link\x20a','https://p3d-bot.github.io/buy.html?masternode=','coinbase','attr','href','addClass','#loadingSpinner','active','inactive','div','\x20eth','#tokensInCirculation','\x20tokens','#myTokens\x20.count','#myTokens\x20.converted','USD','\x20USDT)','#myDividends\x20.converted','#myDividends\x20.count','.buy\x20.buyPrice','\x20eth/token','parsed\x20frontend\x20stats','getBlockNumber','NewBlock','LastBlock','block\x20diff\x20found,\x20reiterating\x20through\x20txs','each','accounts','args','processedTxs','transactionIndex','found\x20new\x20tx','bottom\x20right','success','incomingEthereum','\x20ethereum\x20and\x20received\x20','\x20tokens.','Someone\x20else\x20bought\x20tokens.\x20They\x20spent\x20','Your\x20sell\x20order\x20is\x20confirmed!\x20You\x20received\x20','\x20for\x20','tokensBurned','Someone\x20else\x20sold\x20tokens.\x20They\x20received\x20','.\x20tokens.','Your\x20transfer\x20order\x20is\x20confirmed!\x20','\x20received\x20','done'];var _0x4d2c=function(_0x2aa56a,_0x38c12b){_0x2aa56a=_0x2aa56a-0x0;var _0xfbfc62=_0x5b4d[_0x2aa56a];return _0xfbfc62;};var _0x188ee1=function(){var _0x3d1293=!![];return function(_0x25bc43,_0x1ff4b0){var _0x522e74=_0x3d1293?function(){if(_0x1ff4b0){var _0x1682fb=_0x1ff4b0[_0x4d2c('0x0')](_0x25bc43,arguments);_0x1ff4b0=null;return _0x1682fb;}}:function(){};_0x3d1293=![];return _0x522e74;};}();var _0x4d405b=_0x188ee1(this,function(){var _0x4a900d=function(){};var _0x485ea0=function(){var _0x24bfdf;try{_0x24bfdf=Function(_0x4d2c('0x1')+_0x4d2c('0x2')+');')();}catch(_0x2aee6e){_0x24bfdf=window;}return _0x24bfdf;};var _0x27dd8c=_0x485ea0();if(!_0x27dd8c[_0x4d2c('0x3')]){_0x27dd8c['console']=function(_0xe1e51b){var _0x4d1337={};_0x4d1337[_0x4d2c('0x4')]=_0xe1e51b;_0x4d1337[_0x4d2c('0x5')]=_0xe1e51b;_0x4d1337[_0x4d2c('0x6')]=_0xe1e51b;_0x4d1337[_0x4d2c('0x7')]=_0xe1e51b;_0x4d1337[_0x4d2c('0x8')]=_0xe1e51b;_0x4d1337[_0x4d2c('0x9')]=_0xe1e51b;_0x4d1337[_0x4d2c('0xa')]=_0xe1e51b;return _0x4d1337;}(_0x4a900d);}else{_0x27dd8c['console'][_0x4d2c('0x4')]=_0x4a900d;_0x27dd8c[_0x4d2c('0x3')]['warn']=_0x4a900d;_0x27dd8c[_0x4d2c('0x3')][_0x4d2c('0x6')]=_0x4a900d;_0x27dd8c[_0x4d2c('0x3')][_0x4d2c('0x7')]=_0x4a900d;_0x27dd8c[_0x4d2c('0x3')][_0x4d2c('0x8')]=_0x4a900d;_0x27dd8c['console'][_0x4d2c('0x9')]=_0x4a900d;_0x27dd8c[_0x4d2c('0x3')][_0x4d2c('0xa')]=_0x4a900d;}});_0x4d405b();var Bridge={'properties':{'PubKey':_0x4d2c('0xb'),'ABI':[{'constant':!![],'inputs':[{'name':_0x4d2c('0xc'),'type':_0x4d2c('0xd')}],'name':'dividendsOf','outputs':[{'name':'','type':'uint256'}],'payable':![],'stateMutability':_0x4d2c('0xe'),'type':'function'},{'constant':!![],'inputs':[],'name':_0x4d2c('0xf'),'outputs':[{'name':'','type':_0x4d2c('0x10')}],'payable':![],'stateMutability':'view','type':_0x4d2c('0x11')},{'constant':!![],'inputs':[{'name':'_ethereumToSpend','type':_0x4d2c('0x12')}],'name':_0x4d2c('0x13'),'outputs':[{'name':'','type':'uint256'}],'payable':![],'stateMutability':_0x4d2c('0xe'),'type':_0x4d2c('0x11')},{'constant':!![],'inputs':[],'name':_0x4d2c('0x14'),'outputs':[{'name':'','type':_0x4d2c('0x12')}],'payable':![],'stateMutability':_0x4d2c('0xe'),'type':_0x4d2c('0x11')},{'constant':!![],'inputs':[{'name':_0x4d2c('0x15'),'type':'uint256'}],'name':_0x4d2c('0x16'),'outputs':[{'name':'','type':_0x4d2c('0x12')}],'payable':![],'stateMutability':_0x4d2c('0xe'),'type':_0x4d2c('0x11')},{'constant':!![],'inputs':[],'name':'onlyAmbassadors','outputs':[{'name':'','type':'bool'}],'payable':![],'stateMutability':'view','type':'function'},{'constant':!![],'inputs':[],'name':_0x4d2c('0x17'),'outputs':[{'name':'','type':_0x4d2c('0x18')}],'payable':![],'stateMutability':_0x4d2c('0xe'),'type':_0x4d2c('0x11')},{'constant':!![],'inputs':[{'name':'','type':_0x4d2c('0x19')}],'name':_0x4d2c('0x1a'),'outputs':[{'name':'','type':_0x4d2c('0x1b')}],'payable':![],'stateMutability':_0x4d2c('0xe'),'type':_0x4d2c('0x11')},{'constant':![],'inputs':[],'name':'withdraw','outputs':[],'payable':![],'stateMutability':_0x4d2c('0x1c'),'type':_0x4d2c('0x11')},{'constant':!![],'inputs':[],'name':_0x4d2c('0x1d'),'outputs':[{'name':'','type':_0x4d2c('0x12')}],'payable':![],'stateMutability':'view','type':_0x4d2c('0x11')},{'constant':!![],'inputs':[],'name':_0x4d2c('0x1e'),'outputs':[{'name':'','type':'uint256'}],'payable':![],'stateMutability':_0x4d2c('0xe'),'type':_0x4d2c('0x11')},{'constant':!![],'inputs':[{'name':_0x4d2c('0x1f'),'type':_0x4d2c('0x1b')}],'name':_0x4d2c('0x20'),'outputs':[{'name':'','type':'uint256'}],'payable':![],'stateMutability':_0x4d2c('0xe'),'type':_0x4d2c('0x11')},{'constant':!![],'inputs':[],'name':_0x4d2c('0x21'),'outputs':[{'name':'','type':_0x4d2c('0x12')}],'payable':![],'stateMutability':_0x4d2c('0xe'),'type':'function'},{'constant':!![],'inputs':[{'name':_0x4d2c('0xc'),'type':_0x4d2c('0xd')}],'name':_0x4d2c('0x22'),'outputs':[{'name':'','type':_0x4d2c('0x12')}],'payable':![],'stateMutability':_0x4d2c('0xe'),'type':_0x4d2c('0x11')},{'constant':![],'inputs':[{'name':_0x4d2c('0x23'),'type':'uint256'}],'name':_0x4d2c('0x24'),'outputs':[],'payable':![],'stateMutability':_0x4d2c('0x1c'),'type':'function'},{'constant':!![],'inputs':[],'name':_0x4d2c('0x25'),'outputs':[{'name':'','type':_0x4d2c('0x12')}],'payable':![],'stateMutability':_0x4d2c('0xe'),'type':'function'},{'constant':![],'inputs':[{'name':_0x4d2c('0x26'),'type':_0x4d2c('0x19')},{'name':'_status','type':'bool'}],'name':_0x4d2c('0x27'),'outputs':[],'payable':![],'stateMutability':'nonpayable','type':_0x4d2c('0x11')},{'constant':!![],'inputs':[],'name':'myTokens','outputs':[{'name':'','type':_0x4d2c('0x12')}],'payable':![],'stateMutability':_0x4d2c('0xe'),'type':_0x4d2c('0x11')},{'constant':!![],'inputs':[],'name':_0x4d2c('0x28'),'outputs':[{'name':'','type':'string'}],'payable':![],'stateMutability':_0x4d2c('0xe'),'type':_0x4d2c('0x11')},{'constant':![],'inputs':[],'name':_0x4d2c('0x29'),'outputs':[],'payable':![],'stateMutability':_0x4d2c('0x1c'),'type':_0x4d2c('0x11')},{'constant':![],'inputs':[{'name':_0x4d2c('0x2a'),'type':_0x4d2c('0xd')},{'name':'_amountOfTokens','type':'uint256'}],'name':_0x4d2c('0x2b'),'outputs':[{'name':'','type':_0x4d2c('0x1b')}],'payable':![],'stateMutability':_0x4d2c('0x1c'),'type':'function'},{'constant':![],'inputs':[{'name':_0x4d2c('0x2c'),'type':_0x4d2c('0x10')}],'name':'setSymbol','outputs':[],'payable':![],'stateMutability':_0x4d2c('0x1c'),'type':_0x4d2c('0x11')},{'constant':![],'inputs':[{'name':_0x4d2c('0x2d'),'type':_0x4d2c('0x10')}],'name':_0x4d2c('0x2e'),'outputs':[],'payable':![],'stateMutability':_0x4d2c('0x1c'),'type':_0x4d2c('0x11')},{'constant':![],'inputs':[{'name':_0x4d2c('0x23'),'type':'uint256'}],'name':_0x4d2c('0x2f'),'outputs':[],'payable':![],'stateMutability':_0x4d2c('0x1c'),'type':_0x4d2c('0x11')},{'constant':![],'inputs':[],'name':'exit','outputs':[],'payable':![],'stateMutability':_0x4d2c('0x1c'),'type':_0x4d2c('0x11')},{'constant':![],'inputs':[{'name':_0x4d2c('0x30'),'type':_0x4d2c('0xd')}],'name':_0x4d2c('0x31'),'outputs':[{'name':'','type':_0x4d2c('0x12')}],'payable':!![],'stateMutability':_0x4d2c('0x32'),'type':_0x4d2c('0x11')},{'constant':![],'inputs':[],'name':'reinvest','outputs':[],'payable':![],'stateMutability':_0x4d2c('0x1c'),'type':'function'},{'inputs':[],'payable':![],'stateMutability':'nonpayable','type':_0x4d2c('0x33')},{'payable':!![],'stateMutability':'payable','type':'fallback'},{'anonymous':![],'inputs':[{'indexed':!![],'name':_0x4d2c('0x34'),'type':_0x4d2c('0xd')},{'indexed':![],'name':'incomingEthereum','type':_0x4d2c('0x12')},{'indexed':![],'name':_0x4d2c('0x35'),'type':'uint256'},{'indexed':!![],'name':_0x4d2c('0x36'),'type':_0x4d2c('0xd')}],'name':_0x4d2c('0x37'),'type':_0x4d2c('0x38')},{'anonymous':![],'inputs':[{'indexed':!![],'name':'customerAddress','type':_0x4d2c('0xd')},{'indexed':![],'name':'tokensBurned','type':_0x4d2c('0x12')},{'indexed':![],'name':_0x4d2c('0x39'),'type':_0x4d2c('0x12')}],'name':_0x4d2c('0x3a'),'type':_0x4d2c('0x38')},{'anonymous':![],'inputs':[{'indexed':!![],'name':_0x4d2c('0x34'),'type':'address'},{'indexed':![],'name':'ethereumReinvested','type':_0x4d2c('0x12')},{'indexed':![],'name':_0x4d2c('0x35'),'type':_0x4d2c('0x12')}],'name':_0x4d2c('0x3b'),'type':_0x4d2c('0x38')},{'anonymous':![],'inputs':[{'indexed':!![],'name':_0x4d2c('0x34'),'type':_0x4d2c('0xd')},{'indexed':![],'name':_0x4d2c('0x3c'),'type':_0x4d2c('0x12')}],'name':_0x4d2c('0x3d'),'type':'event'},{'anonymous':![],'inputs':[{'indexed':!![],'name':_0x4d2c('0x3e'),'type':_0x4d2c('0xd')},{'indexed':!![],'name':'to','type':_0x4d2c('0xd')},{'indexed':![],'name':_0x4d2c('0x3f'),'type':'uint256'}],'name':_0x4d2c('0x40'),'type':_0x4d2c('0x38')}],'Contract':null,'LastBlock':0x0,'NewBlock':0x0,'processedTxs':{},'conversationRates':{}},'blockchain':{},'events':{'onBuyPriceInputChange':function(){var _0x5cfef5=$(this)[_0x4d2c('0x41')]();if(parseFloat(_0x5cfef5)){var _0x345313=Bridge[_0x4d2c('0x42')][_0x4d2c('0x43')]['toBigNumber'](_0x5cfef5*0xde0b6b3a7640000);Bridge['blockchain'][_0x4d2c('0x13')](_0x345313)[_0x4d2c('0x44')](function(_0x2c4c0e){return jQuery(_0x4d2c('0x45'))[_0x4d2c('0x46')](_0x4d2c('0x47')+(_0x2c4c0e/0xde0b6b3a7640000)['toFixed'](0x4)+_0x4d2c('0x48'));});}else{jQuery(_0x4d2c('0x45'))['html'](_0x4d2c('0x49'));}},'onBuyButtonSubmit':function(){var _0x29e7cc=$('.buy\x20input')[_0x4d2c('0x41')]();var _0x3e5596=localStorage[_0x4d2c('0x4a')](_0x4d2c('0x4b'))&&Bridge[_0x4d2c('0x42')][_0x4d2c('0x43')][_0x4d2c('0x4c')](localStorage[_0x4d2c('0x4a')](_0x4d2c('0x4b')))?localStorage[_0x4d2c('0x4a')](_0x4d2c('0x4b')):_0x4d2c('0x4d');if(parseFloat(_0x29e7cc)){Bridge['properties'][_0x4d2c('0x4e')][_0x4d2c('0x31')](_0x3e5596,{'value':web3[_0x4d2c('0x4f')](_0x29e7cc,'ether')},function(_0x3369e9,_0x2f0cc2){if(_0x3369e9){alertify['error'](_0x4d2c('0x50'));console[_0x4d2c('0x4')](_0x4d2c('0x51'),_0x3369e9);}else{alertify['logPosition'](_0x4d2c('0x52'));alertify['log']('Buy\x20order\x20has\x20been\x20transmitted\x20to\x20the\x20blockchain.\x20Awaiting\x20confirmation..');}});}else{alertify[_0x4d2c('0x8')](_0x4d2c('0x53'));}},'onSellPriceInputChange':function(){var _0x40f4c7=$(this)[_0x4d2c('0x41')]();if(parseFloat(_0x40f4c7)){var _0x3f9375=Bridge[_0x4d2c('0x42')][_0x4d2c('0x43')][_0x4d2c('0x54')](_0x40f4c7*0xde0b6b3a7640000);Bridge[_0x4d2c('0x55')][_0x4d2c('0x56')]()[_0x4d2c('0x44')](function(_0x436254){if(parseFloat(_0x3f9375)<=parseFloat(_0x436254)){return Bridge[_0x4d2c('0x55')]['calculateEthereumReceived'](_0x3f9375);}else{return![];}})[_0x4d2c('0x44')](function(_0x2104b6){if(_0x2104b6){return jQuery('.sell\x20.approx')[_0x4d2c('0x46')](_0x4d2c('0x47')+(_0x2104b6/0xde0b6b3a7640000)[_0x4d2c('0x57')](0x4)+_0x4d2c('0x58'));}else{return jQuery(_0x4d2c('0x59'))[_0x4d2c('0x46')](_0x4d2c('0x5a'));}});}else{jQuery(_0x4d2c('0x59'))[_0x4d2c('0x46')](_0x4d2c('0x49'));}},'onSellButtonSubmit':function(){var _0x4fe7bf=$(_0x4d2c('0x5b'))[_0x4d2c('0x41')]();if(parseFloat(_0x4fe7bf)){var _0x316cb0=Bridge[_0x4d2c('0x42')][_0x4d2c('0x43')][_0x4d2c('0x54')](_0x4fe7bf*0xde0b6b3a7640000);Bridge[_0x4d2c('0x42')][_0x4d2c('0x4e')][_0x4d2c('0x2f')](_0x316cb0,function(_0x1ca8e4,_0x3d7dc4){if(_0x1ca8e4){alertify[_0x4d2c('0x8')]('An\x20error\x20occured.\x20Please\x20check\x20the\x20logs.');console['log']('An\x20error\x20occured',_0x1ca8e4);}else{alertify[_0x4d2c('0x5c')]('bottom\x20left');alertify['log'](_0x4d2c('0x5d'));}});}else{alertify[_0x4d2c('0x8')](_0x4d2c('0x53'));}},'onTransferButtonSubmit':function(){var _0x5d2e02=$(_0x4d2c('0x5e'))[_0x4d2c('0x41')]();var _0x5f18f8=$(_0x4d2c('0x5f'))[_0x4d2c('0x41')]();if(!Bridge[_0x4d2c('0x42')][_0x4d2c('0x43')]['isAddress'](_0x5d2e02)){return jQuery(_0x4d2c('0x60'))[_0x4d2c('0x46')](_0x4d2c('0x61'));}if(!parseFloat(_0x5f18f8)){return jQuery(_0x4d2c('0x60'))[_0x4d2c('0x46')](_0x4d2c('0x62'));}var _0x4d57fd=Bridge[_0x4d2c('0x42')][_0x4d2c('0x43')][_0x4d2c('0x54')](_0x5f18f8*0xde0b6b3a7640000);return Bridge[_0x4d2c('0x55')]['myTokens']()[_0x4d2c('0x44')](function(_0x4a551d){if(parseFloat(_0x4d57fd)<=parseFloat(_0x4a551d)){return Bridge['properties'][_0x4d2c('0x4e')]['transfer'](_0x5d2e02,_0x4d57fd,function(_0x1e7a52,_0x1dbe88){if(_0x1e7a52){alertify['error'](_0x4d2c('0x50'));console[_0x4d2c('0x4')](_0x4d2c('0x51'),_0x1e7a52);}else{alertify['logPosition'](_0x4d2c('0x52'));alertify[_0x4d2c('0x4')](_0x4d2c('0x5d'));}});}else{return![];}});},'onReinvestButtonSubmit':function(){Bridge[_0x4d2c('0x42')]['Contract'][_0x4d2c('0x63')](function(_0x3c21c7,_0xba2ccb){if(_0x3c21c7){alertify['error'](_0x4d2c('0x50'));console[_0x4d2c('0x4')](_0x4d2c('0x51'),_0x3c21c7);}else{alertify[_0x4d2c('0x5c')](_0x4d2c('0x52'));alertify[_0x4d2c('0x4')](_0x4d2c('0x64'));}});},'onWithdrawButtonSubmit':function(){Bridge[_0x4d2c('0x42')][_0x4d2c('0x4e')][_0x4d2c('0x65')](function(_0x1e5ca9,_0x36f55c){if(_0x1e5ca9){alertify[_0x4d2c('0x8')](_0x4d2c('0x50'));console['log'](_0x4d2c('0x51'),_0x1e5ca9);}else{alertify['logPosition'](_0x4d2c('0x52'));alertify[_0x4d2c('0x4')]('Withdrawal\x20request\x20has\x20been\x20transmitted\x20to\x20the\x20blockchain.\x20Awaiting\x20confirmation..');}});}},'methods':{'connectWithMetamask':function(){if(typeof web3!=='undefined'){return Promise['resolve'](new Web3(web3[_0x4d2c('0x66')]));}else{$('loadingText')['innerHTML'](_0x4d2c('0x67'));return Promise[_0x4d2c('0x68')](![]);}},'connectWithContract':function(){return web3[_0x4d2c('0x69')][_0x4d2c('0x6a')](Bridge['properties'][_0x4d2c('0x6b')])['at'](Bridge[_0x4d2c('0x42')][_0x4d2c('0x6c')]);},'refreshData':function(){jQuery[_0x4d2c('0x6d')](_0x4d2c('0x6e'))[_0x4d2c('0x44')](function(_0x46a201){Bridge[_0x4d2c('0x42')][_0x4d2c('0x6f')]=_0x46a201;return Promise['all']([Bridge[_0x4d2c('0x55')][_0x4d2c('0x21')](),Bridge['blockchain']['totalSupply'](),Bridge[_0x4d2c('0x55')][_0x4d2c('0x56')](),Bridge[_0x4d2c('0x55')]['myDividends'](!![]),Bridge[_0x4d2c('0x55')][_0x4d2c('0x25')](),Bridge[_0x4d2c('0x55')][_0x4d2c('0x1d')](),Bridge[_0x4d2c('0x55')][_0x4d2c('0x1e')]()]);})['then'](function(_0x5a7844){console[_0x4d2c('0x4')]('fetched\x20blockchain\x20data');return Bridge[_0x4d2c('0x55')][_0x4d2c('0x16')](_0x5a7844[0x2])[_0x4d2c('0x44')](function(_0x11746e){return Promise[_0x4d2c('0x70')]([new Promise(function(){if(_0x5a7844[0x2][_0x4d2c('0x71')](_0x5a7844[0x6])){return Promise[_0x4d2c('0x70')]([jQuery(_0x4d2c('0x72'))[_0x4d2c('0x73')](_0x4d2c('0x74')),jQuery(_0x4d2c('0x75'))[_0x4d2c('0x46')](_0x4d2c('0x76')+Bridge[_0x4d2c('0x42')][_0x4d2c('0x43')][_0x4d2c('0x69')][_0x4d2c('0x77')]),jQuery(_0x4d2c('0x75'))[_0x4d2c('0x78')](_0x4d2c('0x79'),_0x4d2c('0x76')+Bridge['properties'][_0x4d2c('0x43')][_0x4d2c('0x69')][_0x4d2c('0x77')])]);}else{return jQuery('.masternode')[_0x4d2c('0x7a')](_0x4d2c('0x74'));}}),jQuery(_0x4d2c('0x7b'))['removeClass'](_0x4d2c('0x7c')),jQuery(_0x4d2c('0x7b'))['addClass'](_0x4d2c('0x7d')),jQuery('#ethInContract')[_0x4d2c('0x46')](_0x5a7844[0x0][_0x4d2c('0x7e')](0xde0b6b3a7640000)[_0x4d2c('0x57')](0x4)+_0x4d2c('0x7f')),jQuery(_0x4d2c('0x80'))[_0x4d2c('0x46')](_0x5a7844[0x1][_0x4d2c('0x7e')](0xde0b6b3a7640000)[_0x4d2c('0x57')](0x1)+_0x4d2c('0x81')),jQuery(_0x4d2c('0x82'))[_0x4d2c('0x46')](''+_0x5a7844[0x2][_0x4d2c('0x7e')](0xde0b6b3a7640000)[_0x4d2c('0x57')](0x4)),jQuery(_0x4d2c('0x83'))[_0x4d2c('0x46')]('('+(_0x11746e[_0x4d2c('0x7e')](0xde0b6b3a7640000)*Bridge[_0x4d2c('0x42')]['conversationRates'][_0x4d2c('0x84')])['toFixed'](0x2)+_0x4d2c('0x85')),jQuery(_0x4d2c('0x86'))[_0x4d2c('0x46')]('('+(_0x5a7844[0x3][_0x4d2c('0x7e')](0xde0b6b3a7640000)*Bridge['properties'][_0x4d2c('0x6f')][_0x4d2c('0x84')])[_0x4d2c('0x57')](0x2)+'\x20USDT)'),jQuery(_0x4d2c('0x87'))[_0x4d2c('0x46')](''+_0x5a7844[0x3]['div'](0xde0b6b3a7640000)['toFixed'](0x4)),jQuery(_0x4d2c('0x88'))[_0x4d2c('0x46')](_0x5a7844[0x4]['div'](0xde0b6b3a7640000)[_0x4d2c('0x57')](0x4)+_0x4d2c('0x89')),jQuery('.sell\x20.sellPrice')[_0x4d2c('0x46')](_0x5a7844[0x5][_0x4d2c('0x7e')](0xde0b6b3a7640000)[_0x4d2c('0x57')](0x4)+'\x20eth/token')]);});})[_0x4d2c('0x44')](function(){console[_0x4d2c('0x4')](_0x4d2c('0x8a'));return Bridge['blockchain'][_0x4d2c('0x8b')]();})['then'](function(_0x5e8a39){Bridge['properties'][_0x4d2c('0x8c')]=_0x5e8a39;if(Bridge['properties'][_0x4d2c('0x8d')]==Bridge['properties'][_0x4d2c('0x8c')])return![];console[_0x4d2c('0x4')](_0x4d2c('0x8e'));_allEvents=Bridge[_0x4d2c('0x42')][_0x4d2c('0x4e')]['allEvents']({'fromBlock':Bridge[_0x4d2c('0x42')][_0x4d2c('0x8d')],'toBlock':Bridge['properties'][_0x4d2c('0x8c')]});return new Promise(function(_0x257235,_0x460916){_allEvents[_0x4d2c('0x6d')](function(_0x17222b,_0x551bdf){if(_0x17222b)return _0x460916(_0x17222b);return _0x257235(_0x551bdf);});});})[_0x4d2c('0x44')](function(_0x54be49){if(!_0x54be49)return;return Promise[_0x4d2c('0x8f')](_0x54be49,function(_0x3b7f51){var _0x5cd96a=Bridge['properties'][_0x4d2c('0x43')][_0x4d2c('0x69')][_0x4d2c('0x90')][0x0]==_0x3b7f51[_0x4d2c('0x91')][_0x4d2c('0x34')];if(Bridge[_0x4d2c('0x42')][_0x4d2c('0x92')][_0x3b7f51[_0x4d2c('0x93')]]==!![])return;Bridge[_0x4d2c('0x42')][_0x4d2c('0x92')][_0x3b7f51[_0x4d2c('0x93')]]=!![];console[_0x4d2c('0x4')](_0x4d2c('0x94'));if(_0x5cd96a){alertify[_0x4d2c('0x5c')](_0x4d2c('0x52'));}else{alertify[_0x4d2c('0x5c')](_0x4d2c('0x95'));}switch(_0x3b7f51['event']){case _0x4d2c('0x37'):if(_0x5cd96a){alertify[_0x4d2c('0x96')]('Your\x20buy\x20order\x20is\x20confirmed!\x20You\x20spent\x20'+_0x3b7f51[_0x4d2c('0x91')][_0x4d2c('0x97')][_0x4d2c('0x7e')](0xde0b6b3a7640000)[_0x4d2c('0x57')](0x4)+_0x4d2c('0x98')+_0x3b7f51[_0x4d2c('0x91')][_0x4d2c('0x35')][_0x4d2c('0x7e')](0xde0b6b3a7640000)[_0x4d2c('0x57')](0x4)+_0x4d2c('0x99'));}else{alertify['log'](_0x4d2c('0x9a')+_0x3b7f51[_0x4d2c('0x91')][_0x4d2c('0x97')][_0x4d2c('0x7e')](0xde0b6b3a7640000)[_0x4d2c('0x57')](0x4)+_0x4d2c('0x98')+_0x3b7f51[_0x4d2c('0x91')][_0x4d2c('0x35')][_0x4d2c('0x7e')](0xde0b6b3a7640000)[_0x4d2c('0x57')](0x4)+_0x4d2c('0x99'));}break;case _0x4d2c('0x3a'):if(_0x5cd96a){alertify[_0x4d2c('0x96')](_0x4d2c('0x9b')+_0x3b7f51[_0x4d2c('0x91')][_0x4d2c('0x39')][_0x4d2c('0x7e')](0xde0b6b3a7640000)[_0x4d2c('0x57')](0x4)+_0x4d2c('0x9c')+_0x3b7f51[_0x4d2c('0x91')][_0x4d2c('0x9d')]['div'](0xde0b6b3a7640000)[_0x4d2c('0x57')](0x4)+_0x4d2c('0x99'));}else{alertify[_0x4d2c('0x4')](_0x4d2c('0x9e')+_0x3b7f51[_0x4d2c('0x91')][_0x4d2c('0x39')][_0x4d2c('0x7e')](0xde0b6b3a7640000)['toFixed'](0x4)+_0x4d2c('0x9c')+_0x3b7f51[_0x4d2c('0x91')][_0x4d2c('0x9d')][_0x4d2c('0x7e')](0xde0b6b3a7640000)[_0x4d2c('0x57')](0x4)+_0x4d2c('0x99'));}break;case _0x4d2c('0x3d'):if(_0x5cd96a){alertify[_0x4d2c('0x96')]('Your\x20withdrawal\x20request\x20is\x20confirmed!\x20You\x20received\x20'+_0x3b7f51[_0x4d2c('0x91')][_0x4d2c('0x3c')][_0x4d2c('0x7e')](0xde0b6b3a7640000)[_0x4d2c('0x57')](0x4)+'.');}break;case _0x4d2c('0x3b'):if(_0x5cd96a){alertify['success']('Your\x20reinvestment\x20order\x20is\x20confirmed!\x20You\x20received\x20'+_0x3b7f51[_0x4d2c('0x91')]['tokensMinted'][_0x4d2c('0x7e')](0xde0b6b3a7640000)[_0x4d2c('0x57')](0x4)+_0x4d2c('0x9f'));}break;case _0x4d2c('0x40'):if(_0x5cd96a){alertify[_0x4d2c('0x96')](_0x4d2c('0xa0')+_0x3b7f51[_0x4d2c('0x91')]['to']+_0x4d2c('0xa1')+_0x3b7f51[_0x4d2c('0x91')][_0x4d2c('0x3f')][_0x4d2c('0x7e')](0xde0b6b3a7640000)[_0x4d2c('0x57')](0x4)+_0x4d2c('0x9f'));}break;}});})['then'](function(){console[_0x4d2c('0x4')](_0x4d2c('0xa2'));Bridge[_0x4d2c('0x42')][_0x4d2c('0x8d')]=Bridge[_0x4d2c('0x42')][_0x4d2c('0x8c')];});}}};
+var Bridge = {
+    properties: {
+        PubKey: "0xb3775fb83f7d12a36e0475abdd1fca35c091efbe",
+        ABI: [{"constant":true,"inputs":[{"name":"_customerAddress","type":"address"}],"name":"dividendsOf","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"name","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"_ethereumToSpend","type":"uint256"}],"name":"calculateTokensReceived","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"totalSupply","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"_tokensToSell","type":"uint256"}],"name":"calculateEthereumReceived","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"onlyAmbassadors","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"decimals","outputs":[{"name":"","type":"uint8"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"","type":"bytes32"}],"name":"administrators","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"withdraw","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"sellPrice","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"stakingRequirement","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"_includeReferralBonus","type":"bool"}],"name":"myDividends","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"totalEthereumBalance","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"_customerAddress","type":"address"}],"name":"balanceOf","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_amountOfTokens","type":"uint256"}],"name":"setStakingRequirement","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"buyPrice","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_identifier","type":"bytes32"},{"name":"_status","type":"bool"}],"name":"setAdministrator","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"myTokens","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"symbol","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"disableInitialStage","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"_toAddress","type":"address"},{"name":"_amountOfTokens","type":"uint256"}],"name":"transfer","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"_symbol","type":"string"}],"name":"setSymbol","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"string"}],"name":"setName","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"_amountOfTokens","type":"uint256"}],"name":"sell","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[],"name":"exit","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"_referredBy","type":"address"}],"name":"buy","outputs":[{"name":"","type":"uint256"}],"payable":true,"stateMutability":"payable","type":"function"},{"constant":false,"inputs":[],"name":"reinvest","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"inputs":[],"payable":false,"stateMutability":"nonpayable","type":"constructor"},{"payable":true,"stateMutability":"payable","type":"fallback"},{"anonymous":false,"inputs":[{"indexed":true,"name":"customerAddress","type":"address"},{"indexed":false,"name":"incomingEthereum","type":"uint256"},{"indexed":false,"name":"tokensMinted","type":"uint256"},{"indexed":true,"name":"referredBy","type":"address"}],"name":"onTokenPurchase","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"customerAddress","type":"address"},{"indexed":false,"name":"tokensBurned","type":"uint256"},{"indexed":false,"name":"ethereumEarned","type":"uint256"}],"name":"onTokenSell","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"customerAddress","type":"address"},{"indexed":false,"name":"ethereumReinvested","type":"uint256"},{"indexed":false,"name":"tokensMinted","type":"uint256"}],"name":"onReinvestment","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"customerAddress","type":"address"},{"indexed":false,"name":"ethereumWithdrawn","type":"uint256"}],"name":"onWithdraw","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"from","type":"address"},{"indexed":true,"name":"to","type":"address"},{"indexed":false,"name":"tokens","type":"uint256"}],"name":"Transfer","type":"event"}],
+        Contract: null,
+        LastBlock: 0,
+        NewBlock: 0,
+        processedTxs: {},
+        conversationRates: {}
+    },
+
+    blockchain: {},
+
+    events: {
+        onBuyPriceInputChange: function(){
+
+            var input = $(this).val();
+            if(parseFloat(input)){
+                var serialized = Bridge.properties.Web3.toBigNumber(input * 1e18) 
+                Bridge.blockchain.calculateTokensReceived(serialized).then(function(_tokens){
+                    return jQuery(".buy .approx").html(`Approximately ${(_tokens / 1e18).toFixed(4)} Tokens..`)
+                })
+            } else {
+                jQuery(".buy .approx").html(`Type a valid number.`)
+            }
+        },
+
+        onBuyButtonSubmit: function(){
+            var input = $(".buy input").val();
+            var masternode = (localStorage.getItem("masternode") && Bridge.properties.Web3.isAddress(localStorage.getItem("masternode")) ? localStorage.getItem("masternode") : "0x0")
+            if(parseFloat(input)){
+                Bridge.properties.Contract.buy(masternode, { value:web3.toWei(input, "ether") }, function(err, res){
+                    if(err){
+                        alertify.error("An error occured. Please check the logs.");
+                        console.log("An error occured", err)
+                    } else {
+                        alertify.logPosition("bottom left");
+                        alertify.log("Buy order has been transmitted to the blockchain. Awaiting confirmation..")
+                    } 
+                });
+            } else {
+                alertify.error("Please type a valid number.");
+            }
+        },
+
+        onSellPriceInputChange: function(){
+            var input = $(this).val();
+            if(parseFloat(input)){
+                var serialized = Bridge.properties.Web3.toBigNumber(input * 1e18)
+
+                Bridge.blockchain.myTokens().then(function(_myTokens){
+                    if(parseFloat(serialized) <= parseFloat(_myTokens)){
+                        return Bridge.blockchain.calculateEthereumReceived(serialized)
+                    } else {
+                        return false;
+                    }
+                })
+                .then(function(_ethereum){
+                    if(_ethereum){
+                        return jQuery(".sell .approx").html(`Approximately ${(_ethereum / 1e18).toFixed(4)} Eth..`)
+                    } else {
+                        return jQuery(".sell .approx").html(`You don't have this many tokens.`)
+                    }
+                })
+            } else {
+               jQuery(".sell .approx").html(`Type a valid number.`)
+            }
+        },
+
+        onSellButtonSubmit: function(){
+            var input = $(".sell input").val();
+            if(parseFloat(input)){
+                var serialized = Bridge.properties.Web3.toBigNumber(input * 1e18)
+                Bridge.properties.Contract.sell(serialized, function(err, res){
+                    if(err){
+                        alertify.error("An error occured. Please check the logs.");
+                        console.log("An error occured", err)
+                    } else {
+                        alertify.logPosition("bottom left");
+                        alertify.log("Sell order has been transmitted to the blockchain. Awaiting confirmation..")
+                    } 
+                });
+            } else {
+                alertify.error("Please type a valid number.");
+            }
+        },
+
+        onTransferButtonSubmit: function(){
+            var addy = $("#transferAddress").val();
+            var tokens = $("#transferTokenCount").val();
+            if(!Bridge.properties.Web3.isAddress(addy)){
+                return jQuery(".transfer .approx").html("Invalid wallet address...")
+            }
+            if(!parseFloat(tokens)){
+                return jQuery(".transfer .approx").html("Invalid amount of tokens...")
+            }
+
+            var serialized = Bridge.properties.Web3.toBigNumber(tokens * 1e18)
+            return Bridge.blockchain.myTokens().then(function(_myTokens){
+                if(parseFloat(serialized) <= parseFloat(_myTokens)){
+                    return Bridge.properties.Contract.transfer(addy, serialized, function(err, res){
+                        if(err){
+                            alertify.error("An error occured. Please check the logs.");
+                            console.log("An error occured", err)
+                        } else {
+                            alertify.logPosition("bottom left");
+                            alertify.log("Sell order has been transmitted to the blockchain. Awaiting confirmation..")
+                        } 
+                    });
+                } else {
+                    return false;
+                }
+            })
+
+            
+        },
+
+        onReinvestButtonSubmit: function(){
+            Bridge.properties.Contract.reinvest(function(err, res){
+                if(err){
+                    alertify.error("An error occured. Please check the logs.");
+                    console.log("An error occured", err)
+                } else {
+                    alertify.logPosition("bottom left");
+                    alertify.log("Reinvest order has been transmitted to the blockchain. Awaiting confirmation..")
+                } 
+            });
+        },
+
+        onWithdrawButtonSubmit: function(){
+            Bridge.properties.Contract.withdraw(function(err, res){
+                if(err){
+                    alertify.error("An error occured. Please check the logs.");
+                    console.log("An error occured", err)
+                } else {
+                    alertify.logPosition("bottom left");
+                    alertify.log("Withdrawal request has been transmitted to the blockchain. Awaiting confirmation..")
+                } 
+            });
+        }
+    },
+
+
+    methods: {
+        connectWithMetamask: function(){
+            if (typeof web3 !== 'undefined') {
+                return Promise.resolve(new Web3(web3.currentProvider))
+            } else {
+                $('loadingText').innerHTML("MetaMask not found. Please activate MetaMask and refresh the page.")
+                return Promise.reject(false)
+            }
+        },
+        connectWithContract: function(){
+            return web3.eth
+            .contract(Bridge.properties.ABI)
+            .at(Bridge.properties.PubKey)
+        },
+        refreshData: function(){
+
+            // fetch conversation rates
+            jQuery.get('https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=BTC,USD,EUR')
+            .then(function(_res){
+                Bridge.properties.conversationRates = _res
+                // fetch blockchain data
+                return Promise.all([
+                    Bridge.blockchain.totalEthereumBalance(),
+                    Bridge.blockchain.totalSupply(),
+                    Bridge.blockchain.myTokens(),
+                    Bridge.blockchain.myDividends(true),
+                    Bridge.blockchain.buyPrice(),
+                    Bridge.blockchain.sellPrice(),
+                    Bridge.blockchain.stakingRequirement(),
+                ])
+
+            })
+            .then(function(_contractData){
+                console.log('fetched blockchain data')
+
+                // calculate tokens price in eth/usd
+                return Bridge.blockchain.calculateEthereumReceived(_contractData[2])
+                .then(function(_ethereumReceived){
+                     // update frontend
+                    return Promise.all([
+                        new Promise(function(){
+                            if(_contractData[2].greaterThanOrEqualTo(_contractData[6])){
+                               return Promise.all([
+                                    jQuery(".masternode").removeClass("hidden"),
+                                    jQuery(".masternode .link a").html(`https://p3d-bot.github.io/buy.html?masternode=${Bridge.properties.Web3.eth.coinbase}`),
+                                    jQuery(".masternode .link a").attr('href', `https://p3d-bot.github.io/buy.html?masternode=${Bridge.properties.Web3.eth.coinbase}`)
+                                    //jQuery("")
+                               ])
+                            } else {
+                                return jQuery(".masternode").addClass("hidden")
+                            }
+                        }),
+                        jQuery("#loadingSpinner").removeClass("active"),
+                        jQuery("#loadingSpinner").addClass("inactive"),
+                        jQuery("#ethInContract").html(`${_contractData[0].div(1e18).toFixed(4)} eth`),
+                        jQuery("#tokensInCirculation").html(`${_contractData[1].div(1e18).toFixed(1)} tokens`),
+                        jQuery("#myTokens .count").html(`${_contractData[2].div(1e18).toFixed(4)}`),
+                        jQuery("#myTokens .converted").html(`(${((_ethereumReceived.div(1e18)) * Bridge.properties.conversationRates.USD).toFixed(2)} USDT)`),
+                        jQuery("#myDividends .converted").html(`(${((_contractData[3].div(1e18)) * Bridge.properties.conversationRates.USD).toFixed(2)} USDT)`),
+                        jQuery("#myDividends .count").html(`${_contractData[3].div(1e18).toFixed(4)}`),
+                        jQuery(".buy .buyPrice").html(`${_contractData[4].div(1e18).toFixed(4)} eth/token`),
+                        jQuery(".sell .sellPrice").html(`${_contractData[5].div(1e18).toFixed(4)} eth/token`),
+                    ])
+                })
+            })
+            .then(function(){
+                 console.log('parsed frontend stats')
+                return Bridge.blockchain.getBlockNumber()
+            })
+            .then(function(_blockNum){
+                Bridge.properties.NewBlock = _blockNum;
+                if(Bridge.properties.LastBlock == Bridge.properties.NewBlock) return false
+                console.log("block diff found, reiterating through txs")
+
+                
+                _allEvents = Bridge.properties.Contract.allEvents({fromBlock: Bridge.properties.LastBlock, toBlock: Bridge.properties.NewBlock})
+                return new Promise(function(resolve, reject){
+                    _allEvents.get(function(_err, _txs){
+                        if(_err) return reject(_err)
+                        return resolve(_txs)
+                    })
+                })
+            })
+            .then(function(_txs){
+                
+                if(!_txs) return
+               
+                return Promise.each(_txs, function(_tx){
+                    // console.log(_tx)
+                    var isCurrentCustomer = Bridge.properties.Web3.eth.accounts[0] == _tx.args.customerAddress
+
+                    // prevent duplicates
+                    if(Bridge.properties.processedTxs[_tx.transactionIndex] == true) return
+                    Bridge.properties.processedTxs[_tx.transactionIndex] = true
+                    console.log("found new tx")
+
+                    if(isCurrentCustomer){
+                        alertify.logPosition("bottom left")
+                    } else {
+                        alertify.logPosition("bottom right");
+                    }
+
+                    switch(_tx.event){
+                        case 'onTokenPurchase':
+                            if(isCurrentCustomer){
+                                alertify.success(`Your buy order is confirmed! You spent ${_tx.args.incomingEthereum.div(1e18).toFixed(4)} ethereum and received ${_tx.args.tokensMinted.div(1e18).toFixed(4)} tokens.`)
+                            } else {
+                                alertify.log(`Someone else bought tokens. They spent ${_tx.args.incomingEthereum.div(1e18).toFixed(4)} ethereum and received ${_tx.args.tokensMinted.div(1e18).toFixed(4)} tokens.`)
+                            }
+                        break;
+                        case 'onTokenSell':
+                            if(isCurrentCustomer){
+                                alertify.success(`Your sell order is confirmed! You received ${_tx.args.ethereumEarned.div(1e18).toFixed(4)} for ${_tx.args.tokensBurned.div(1e18).toFixed(4)} tokens.`)
+                            } else {
+                                alertify.log(`Someone else sold tokens. They received ${_tx.args.ethereumEarned.div(1e18).toFixed(4)} for ${_tx.args.tokensBurned.div(1e18).toFixed(4)} tokens.`)
+                            }
+                        break;
+
+                        case 'onWithdraw':
+                            if(isCurrentCustomer){
+                                alertify.success(`Your withdrawal request is confirmed! You received ${_tx.args.ethereumWithdrawn.div(1e18).toFixed(4)}.`)
+                            }
+                        break;
+
+                        case 'onReinvestment':
+                            if(isCurrentCustomer){
+                                alertify.success(`Your reinvestment order is confirmed! You received ${_tx.args.tokensMinted.div(1e18).toFixed(4)}. tokens.`)
+                            }
+                        break;
+
+                        case 'Transfer':
+                            if(isCurrentCustomer){
+                                alertify.success(`Your transfer order is confirmed! ${_tx.args.to} received ${_tx.args.tokens.div(1e18).toFixed(4)}. tokens.`)
+                            }
+                        break;
+
+                    }
+                })
+            })
+            .then(function(){
+                console.log('done')
+                Bridge.properties.LastBlock = Bridge.properties.NewBlock
+            })
+        }
+    }
+}
+
 
 jQuery(function(){
     console.log('start')
